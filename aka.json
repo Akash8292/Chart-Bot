@@ -1,0 +1,73 @@
+{"Ak": [
+    {"tag": "Start",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay", "Is someone is here"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I.m Akash, your bot assistant", "I'm Akash, an Artificial Intelligent bot"]
+    },
+    {
+      "tag": "hobbies",
+      "patterns": ["What are your hobbies?", "Tell me about your interests", "Hobbies?"],
+      "responses": ["I don't have hobbies as I'm a computer program, but I love helping you!"]
+    },
+    {"tag": "name",
+    "patterns": ["Your Name Pls","what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me Akash Kumar.", "I'm Akash kumar!", "Just call me as Akash kumar"]
+    },
+    {"tag": "color",
+    "patterns": ["What is your favourite color", "Your fav. color", "Which color you like most", "Tell me one best color", "which color is good"],
+    "responses": ["red", "Orange","White"]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather like?", "Tell me about the weather", "Weather forecast"],
+      "responses": ["I'm sorry, I don't have real-time weather information."]
+    },
+    {"tag": "movie",
+    "patterns": ["What is your favourite  movie", "Your fav. movie", "Which movie you like most", "Tell me one best movie", "suggest me a good movie","Give a nice movie name"],
+    "responses": ["aashiqui", "aashiqui 2","Rockstar","RRR","KGF"]
+    },
+    {
+      "tag": "inspiration",
+      "patterns": ["I need inspiration", "Inspire me", "Motivational quotes"],
+      "responses": ["Believe you can, and you're halfway there. -Theodore Roosevelt"]
+    },
+    {"tag": "complaint",
+    "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service","I have a Complaint for You"],
+    "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+    },
+    {"tag": "resolve",
+    "patterns": ["sorry issue resolve", "Problem is solved now","Its Okay"],
+    "responses": ["That's Great", "Sounds Good"]
+    },
+    {
+      "tag": "travel",
+      "patterns": ["Tell me about travel destinations", "Dream vacation spots", "Travel recommendations"],
+      "responses": ["There are many beautiful places to explore! Where would you like to travel?"]
+    },
+    {
+      "tag": "coding",
+      "patterns": ["How to start coding?", "Coding tips for beginners", "Programming advice"],
+      "responses": ["Starting with a simple language like Python is a great choice for beginners."]
+    },
+    {
+      "tag": "fun_fact",
+      "patterns": ["Share a fun fact", "Tell me something interesting", "Fun facts"],
+      "responses": ["Did you know that honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible!"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please","Help me?"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    }
+]
+}
