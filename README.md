@@ -8,7 +8,6 @@ This project focuses on the development of an intelligent chatbot using Python a
 
 ![Screenshot 2024-02-10 190818](https://github.com/Akash8292/Chart-Bot/assets/97883391/26b785b7-5c36-47de-9132-82edf6161ddb)
 
-![Screenshot 2024-02-10 190927](https://github.com/Akash8292/Chart-Bot/assets/97883391/02c559ec-53ec-45b3-8bca-f2a7fa4e83cb)
 
 ## Prerequisites
 Python>=3.8
@@ -17,6 +16,10 @@ Python>=3.8
 1. Download the repository and unzip it.
 2. Install necessary packages using pip install -r requirements.txt.
 3. Run the model and chat with Bot.
+
+## Result
+
+![Screenshot 2024-02-10 195339](https://github.com/Akash8292/Chart-Bot/assets/97883391/24199799-7bb5-4000-96d9-19f7b99560aa)
 
 ## Future Work
 In future, I'm looking forward to improve model's accuracy or I am going to use API of google to make  a chatbot using Gemini.
