@@ -1,3 +1,4 @@
+
 import json
 import numpy as np
 import tensorflow as tf
@@ -19,16 +20,20 @@ with open('label_encoder.pickle', 'rb') as enc:
     lbl_encoder = pickle.load(enc)
 
 # Set parameters
-max_len = 20
+max_len = 30
 
 # Streamlit app
 st.title("Simple Chatbot")
+
+# Initialize conversation history
+conversation_history = st.session_state.get("conversation_history", [])
 
 # User input
 user_input = st.text_input("User: ")
 
 if user_input.lower() == "quit":
     st.text("Chatbot: Goodbye! Type anything to start a new conversation.")
+    conversation_history = []  # Reset conversation history
 else:
     # Process user input
     result = model.predict(keras.preprocessing.sequence.pad_sequences(tokenizer.texts_to_sequences([user_input]), truncating='post', maxlen=max_len))
@@ -39,3 +44,12 @@ else:
         if i['tag'] == tag:
             bot_response = np.random.choice(i['responses'])
             st.text("ChatBot: " + bot_response)
+            conversation_history.append(("User: " + user_input, "ChatBot: " + bot_response))
+
+# Save conversation history in session state
+st.session_state.conversation_history = conversation_history
+
+# Display all conversation history
+st.text("Conversation History:")
+for interaction in conversation_history:
+    st.text(interaction)
